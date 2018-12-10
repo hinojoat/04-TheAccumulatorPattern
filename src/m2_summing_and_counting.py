@@ -117,7 +117,7 @@ def sum_more_cosines(m, n):
     # -------------------------------------------------------------------------
     count = 0
     for k in range(m, n):
-        count = count + math.cos(m + 1)
+        count = count + math.cos(k)
 
     return count
 
